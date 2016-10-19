@@ -1,0 +1,150 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    text-align: center;
+    background-image: url(back1.jpg);
+    font-family: Tele-Marines;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 750px;
+    background-color: #005BDF;
+}
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    background:black;
+    padding:10px;
+    color: #555;
+    font-family: Tele-Marines;
+    height: 70px;
+    opacity: .5;
+}
+#content {
+    padding-bottom:50px;
+    font-size: 18px ;
+    font-family: Comic Sans MS;
+    color: white;
+
+}
+#footer {
+    background:black;
+    width:100%;
+    height:5%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    color: #555;
+    font-family: Tele-Marines;
+    padding: 2px;
+    opacity: .5;
+}
+#content>div{
+    border-radius: 10px;
+    border: 5px solid black;
+    margin:0 auto;
+    top: 150px;
+    opacity: .5;
+    box-shadow: 0px 0px 10px 20px black;
+}
+
+
+input[type=submit] {
+        cursor: pointer;
+        display:inline-block;
+        background-color: #555;
+        font-size: 20px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        width: 200px;
+        border: 2px solid white;
+        font-family:Comic Sans MS;
+        outline: none;
+        margin-top: 5px;
+}
+
+input[type=text] {
+    position: relative;
+    width: 200px;
+    background-color: #E8EBED;
+    font-size: 20px;
+    border:2px solid #E8EBED;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    margin-top: 5px;
+}
+input:required:invalid, input:focus:invalid {
+    background-image: url(invalid.png);
+    background-size: 10px;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+input:required:valid {
+    background-image: url(valid.png);
+    background-size: 20px;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  #form{
+
+        cursor: pointer;
+        display:inline-block;
+        background-color: #555;
+        font-size: 20px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        width: 200px;
+        border: 2px solid white;
+        font-family:Comic Sans MS;
+        outline: none;
+        text-decoration: none;
+        padding:5px;
+
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  #form1{
+        cursor: pointer;
+        display:inline-block;
+        background-color: #555;
+        font-size: 20px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        width: 200px;
+        border: 2px solid white;
+        font-family:Comic Sans MS;
+        outline: none;
+
+  }
+  #message{
+    font-size: 30px;
+  }
+  table {
+    margin: 50px;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+tr{background-color: #f2f2f2}
+
+th {
+    background-color: #005BDF;
+    color: white;
+}

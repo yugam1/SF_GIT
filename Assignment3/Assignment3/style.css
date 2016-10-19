@@ -1,0 +1,89 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	text-align: center;
+	background-color: #555;
+	min-width: 1000px;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	background:black;
+	padding:10px;
+	color: #555;
+	font-family: Tele-Marines;
+	height: 70px;
+}
+#content {
+	padding-bottom:50px;
+	min-height: 500px;
+	font-size: 18px ;
+	font-family: Comic Sans MS;
+}
+#footer {
+	background:black;
+	width:100%;
+	height:5%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	color: #555;
+	font-family: Tele-Marines;
+	padding: 2px;
+}
+
+#shuffle {
+    max-width: 500px;
+}
+input[type=submit] {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 0 0 10%;
+    font-family:Tele-Marines;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px black;
+    margin: 50px;
+    margin-bottom: 20px;
+    outline: none;
+}
+input[type=submit]:hover {
+	background-color: grey;
+	color: black;
+}
+.selected{
+	background-color: grey;
+}
+.buttons{
+    float: left;
+    line-height: 100px;
+    width: 110px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 3px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius:10px;
+    border:none;
+    box-shadow: 10px 10px 5px black;
+    outline: none;
+}
+#textarea{
+	position: absolute;
+	width: 700px;
+	text-align: left;
+	left: 600px;
+}
+img{
+	position: absolute;
+	left: 300px;
+}

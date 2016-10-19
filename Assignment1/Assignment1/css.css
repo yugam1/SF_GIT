@@ -1,0 +1,80 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    width: 100%;
+}
+#nav {position: absolute;
+    line-height:30px;
+    background-color:#555;
+    width:24%;
+    padding:5px;
+    text-align: center;
+    height: 85%;
+    min-height:560px;
+    animation-name: navi;
+    animation-duration: 2s;
+}
+#section {
+	position: absolute;
+	left: 26.5%;
+    padding:10px;
+    width: 72%;
+    min-height: width;
+    animation-name: sect;
+    animation-duration: 2s;
+}
+#footer {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height: 4%;
+    min-height: 18px;
+}
+body{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(3.jpg);
+	font-family: Tele-Marines;
+	background-size: 100%;
+
+}
+
+#foot{
+	font-family: Lucida Handwriting;
+}
+
+#nav>ol {
+    margin: 0;
+    padding: 0;
+    width: 379%;
+}
+
+li>a:link {
+    display: block;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+    width: 24%;
+    background-color: #555;
+}
+
+li>a:hover {
+    background-color: black;
+    color: white;
+    width: 25%;
+}
+
+@keyframes navi {
+    0%   {width: 0%;}
+    100% {width: 24%;}
+}
+
+@keyframes sect {
+    0%   {top: 100%;}
+    100% {top:  100px;}
+}

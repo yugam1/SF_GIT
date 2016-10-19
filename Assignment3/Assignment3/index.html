@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lets Play a Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="icon" href="sol.jpg" type="image/jpg" >
+</head>
+
+<body>
+	<script type="text/javascript" src="jquery.js"></script>	
+	<script type="text/javascript" src="main.js"></script>
+	<div id="wrapper">
+		
+		<div id="header">
+		<h1>LETS PLAY A GAME</h1>
+		</div><!-- #header -->
+		
+		<div id="content">
+		<div id="shuffle" >
+	    <input type="button" value="1" id="1" onclick="high('#1')" class="buttons">
+	    <input type="button" value="2" id="2" onclick="high('#2')" class="buttons">
+	    <input type="button" value="3" id="3" onclick="high('#3')" class="buttons">
+	    <input type="button" value="4" id="4" onclick="high('#4')" class="buttons">
+	    <input type="button" value="5" id="5" onclick="high('#5')" class="buttons">
+	    <input type="button" value="6" id="6" onclick="high('#6')" class="buttons">
+	    <input type="button" value="7" id="7" onclick="high('#7')" class="buttons">
+	    <input type="button" value="8" id="8" onclick="high('#8')" class="buttons">
+	    <input type="button" value="9" id="9" onclick="high('#9')" class="buttons">
+	    </div>
+	    <input type="submit" value="Start GAme" onclick="myfunction()" ></input>
+
+	    <input type="submit" value="sWAP" id="change" onclick="swap()"></input>
+	    <div id="textarea"><h2>How to solve</h2>Arrange all numbers in ascending order along left to right,likewise from top to bottom.<br> The game begins after you press START GAME button. You can swap any two of the tiles at a time. Select the two numbers by clicking on them and then pressing swap. Enjoy and have fun Solving. The final soluion looks like this: <br><br><img src="sol.jpg" height="100px" border="dashed" ></div>
+	    
+		</div><!-- #content -->
+		
+		<div id="footer">
+			Copyright &copy projectyugam.esy.es
+		</div><!-- #footer -->
+		
+	</div><!-- #wrapper -->
+	
+</body>
+
+</html>
